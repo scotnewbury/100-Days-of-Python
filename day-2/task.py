@@ -32,3 +32,5 @@
 # will need to cast the input for it to work.
 
 print("Number of letters in your name: " + str(len(input("Enter your name: "))))
+
+# Solution provided inserted variables to make it "clearer" to read
