@@ -31,6 +31,14 @@
 # Looking at the line of code before running it, len() is being used on a string not a number, 
 # will need to cast the input for it to work.
 
-print("Number of letters in your name: " + str(len(input("Enter your name: "))))
+# print("Number of letters in your name: " + str(len(input("Enter your name: "))))
 
 # Solution provided inserted variables to make it "clearer" to read
+
+# eound() function
+# bmi = 84 / 1.65 ** 2
+# print(bmi)
+# print(int(bmi)) # flooring it
+# print(round(bmi))
+# print(round(bmi,2))
+
