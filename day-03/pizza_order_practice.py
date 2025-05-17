@@ -48,6 +48,15 @@ else:
     if pepperoni == "Y":
         total_pizza_cost += 3
 
+# Revision: move pepperoni check out
+# Makes the code "dry"
+
+if pepperoni == "Y":
+    if size == "S":
+        total_pizza_cost += 2
+    else:
+        total_pizza_cost += 3
+
 if extra_cheese == "Y":
     total_pizza_cost += 1
 
