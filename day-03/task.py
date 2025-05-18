@@ -42,6 +42,34 @@
 #     print("Sorry you can't ride")
 
 # Lesson 25 Multiple if Statements in Succession
+# print("Welcome to the rolloercoaster!")
+
+# height = int(input("What is your height in cm? "))
+# age = int(input("How old are you? "))
+# ticket_total = 0  # initialize ticket total
+
+# if height >= 120:
+#     print("You can ride the rollercoaster!")
+#     if age < 12:
+#         print("Child tickets are $5.")
+#         ticket_total += 5
+#     elif age <= 18:
+#         print("Youth tickets are $7.")
+#         ticket_total += 7
+#     else:
+#         print("Adult tickets are $12.")
+#         ticket_total += 12
+#     wants_photo = input("Would you like a photo? Type 'y' for Yes and 'n' for No.")
+#     if wants_photo == 'y':
+#         ticket_total += 3
+#     print(f"Your total ticket price is: ${ticket_total}")
+# else:
+#     print("Sorry you can't ride")
+
+#################################
+# Lesson 27 - Logical Operators #
+#################################
+
 print("Welcome to the rolloercoaster!")
 
 height = int(input("What is your height in cm? "))
@@ -56,6 +84,9 @@ if height >= 120:
     elif age <= 18:
         print("Youth tickets are $7.")
         ticket_total += 7
+    elif age >= 45 and age <= 55:
+        print("You can ride for free!")
+        ticket_total = 0
     else:
         print("Adult tickets are $12.")
         ticket_total += 12
